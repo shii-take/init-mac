@@ -14,12 +14,8 @@ brew cask install docker
 
 # ruby
 brew install rbenv ruby-build
-echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
-echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.bash_profile
-brew install rbenv-gemset
-brew install rbenv-gem-rehash
 rbenv install 2.2.0
+rbenv global 2.2.0
 gem install bundler
-rbenv reahsh
 gem install rubocop
 
