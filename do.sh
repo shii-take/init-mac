@@ -14,7 +14,7 @@ brew cask install docker
 
 # ruby
 brew install rbenv ruby-build
-rbenv install 2.1.0
+rbenv install 2.2.0
 gem install bundler
 rbenv reahsh
 gem install rubocop
